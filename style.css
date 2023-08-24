@@ -38,10 +38,10 @@ body {
 }
 
 .header {
-    font-size: 60px;
+    font-size: 58px;
     text-align: center;
     font-weight: 700;
-    
+    margin-bottom: 5px;
 }
 
 .text-p {
@@ -63,11 +63,15 @@ ul {
 .list-icon {
     margin-right: 10px;
     vertical-align: middle;
+    position: absolute;
+    left: 40px;
 }
 
-li {
-    line-height: 2;
+.para{
+    margin-left: 35px;
+
 }
+
 
 .right-side {
     position: relative;
@@ -104,8 +108,15 @@ label {
     height: 40px;
     width: 330px;
     border: 1px solid;
-
+    border: 1px solid;
+    border: none;
+    border: 1px solid hsl(231, 7%, 60%);
+    color:hsl(231, 7%, 60%) ;
+    font-family: inherit;
     
+}
+::placeholder{
+    color: hsl(231, 7%, 60%);
 }
 
 span {
@@ -127,6 +138,7 @@ span {
     position: relative;
     left: 20px;
     margin-top: 50px;
+    bottom: 15px;
 }
 
 .sub-btn:active, .sub-btn:hover {
@@ -145,59 +157,10 @@ em {
 }
 
 
-/*--- Success message / second page ---*/
+ 
+ 
 
-.success-message {
-    background-color: var(--Neutral-clr-White);
-    margin-top: 10px;
-    height: 320px;
-    width: 320px;
-    text-align: left;
-    padding: 40px;
-    border-radius: 20px;
-    display: grid;
-    margin-bottom: 10px;
-    
-}
-
-.thanks-for-sub {
-    font-size: 40px;
-
-}
-
-.success-icon {
-    height: 50px;
-    width: 50px;
-}
-
-.dismiss-btn {
-    border: none;
-    outline: none;
-    background-color: var(--Neutral-clr-Charcoal-Grey);
-    color: var(--Neutral-clr-White);
-    width: 320px;
-    height: 40px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.dismiss-btn:active, .dismiss-btn:hover {
-    background-image: linear-gradient(to right, hsl(4, 100%, 67%) 70%, hsl(20, 100%, 65%));
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
-
-}
-
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-    color: var(--Neutral-clr-White);
-}
-.attribution a { 
-    color: var(--Neutral-clr-White); 
-    background-color: var(--primary-clr-Tomato);
-    padding: 2px;
-    border-radius: 10px;
-    text-decoration: none;
+ 
    
 }
 
@@ -208,6 +171,7 @@ em {
         flex-direction: column-reverse;
         padding: 0;
         width: 375px;
+        border-radius: 0;
     }
 
     .desktop-img {
@@ -223,6 +187,7 @@ em {
 
     .header {
         font-size: 40px;
+        margin: -2px;
 
     }
 
@@ -241,11 +206,16 @@ em {
     }
 
     #email {
-        width: 300px;
+        width: 314px;
+        border: none;
+        border: 1px solid hsl(231, 7%, 60%);
+        padding: 5px;
     }
 
     .sub-btn {
         width: 325px;
+        height: 55px;
+        background-color: rgba(0, 0, 0, 0.805);
     }
 
     em {
@@ -266,14 +236,36 @@ em {
     .header{
         position: relative;
         right:15px;
+        margin-bottom: 5px;
+        font-size: 40px;
+        margin: 17px;
+    }
     }
      .text-p{
-         margin-left:-11px;
+         margin-left:-12px;
      }
      .list-icon{
-        margin-left:-15px;
+         position: absolute;
+        text-align: justify;
+        
+         left: 25px; 
      }
+.para{
+        position: relative;
+        bottom: 3px;
+         right: 10px;
+        line-height: 26px;
+       }
+#form{
+        margin-top: -20px;
+      }
+.subscribe-input-div{
+        position: relative;
+        bottom: 15px;
 
+    }
+::placeholder{
+        color: hsl(231, 7%, 60%);
     }
     
     
