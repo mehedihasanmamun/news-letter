@@ -42,14 +42,17 @@ body {
     text-align: center;
     font-weight: 700;
     margin-bottom: 5px;
+    position: relative;
+    right: 14px;
+    bottom: 15px;
 }
 
 .text-p {
    text-align: left;
    position: relative;
-   left: 15px;
+   left: 5px;
    width: 380px;
-   
+   bottom: 10px;
 
 }
 
@@ -64,11 +67,11 @@ ul {
     margin-right: 10px;
     vertical-align: middle;
     position: absolute;
-    left: 40px;
+    left: 28px;
 }
 
 .para{
-    margin-left: 35px;
+    margin-left: 25px;
 
 }
 
@@ -87,14 +90,15 @@ ul {
 }
 
 label {
-    font-size: 14px;
-    font-weight: 700;
-
+    font-size: 12px;
+    font-weight: 550;
+    position: relative;
+    right: 13px;
 }
 
 
 #email, .sub-btn {
-    border-radius: 10px;
+    border-radius: 8px;
     outline: none;
     
     
@@ -105,10 +109,10 @@ label {
     margin-bottom: 20px;
     margin-top: 10px;
     padding-left: 20px;
-    height: 40px;
+    height: 50px;
     width: 330px;
-    border: 1px solid;
-    border: 1px solid;
+    position: relative;
+    right: 14px;
     border: none;
     border: 1px solid hsl(231, 7%, 60%);
     color:hsl(231, 7%, 60%) ;
@@ -124,13 +128,18 @@ span {
 }
 
 .sub-btn {
-    height: 45px;
+    height: 55px;
     width: 355px;
     color: var(--Neutral-clr-White);
     background-color: var(--Neutral-clr-Charcoal-Grey);
     cursor: pointer;
     border: none;
     transition: all 0.3s ease-in-out;
+    position: relative;
+    right: 14px;
+    font-weight: bold;
+    font-size: 15px;
+}
 }
 
 .subscribe-input-div {
@@ -187,8 +196,8 @@ em {
 
     .header {
         font-size: 40px;
-        margin: -2px;
-
+        position: relative;
+        left: -25px;
     }
 
     .text-p {
@@ -206,16 +215,22 @@ em {
     }
 
     #email {
-        width: 314px;
+        width: 305px;
         border: none;
         border: 1px solid hsl(231, 7%, 60%);
-        padding: 5px;
+        padding: 2px;
+        padding-left: 10px;
+         position: relative;
+         left: 1px;
     }
 
     .sub-btn {
-        width: 325px;
+        width: 320px;
         height: 55px;
         background-color: rgba(0, 0, 0, 0.805);
+        position: relative;
+        left: 1px;
+        font-size: 15px;
     }
 
     em {
@@ -242,13 +257,11 @@ em {
     }
     
      .text-p{
-         margin-left:-12px;
+         margin-left:-10px;
      }
      .list-icon{
          position: absolute;
-        text-align: justify;
-        
-         left: 25px; 
+         left: 20px; 
      }
 .para{
         position: relative;
@@ -267,7 +280,11 @@ em {
 ::placeholder{
         color: hsl(231, 7%, 60%);
     }
-    
+    label{
+        position: relative;
+        left: 1px;
+        font-size: 10px;
+    }
     
    
 }
